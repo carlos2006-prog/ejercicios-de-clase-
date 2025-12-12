@@ -1,0 +1,17 @@
+2025-11-14 21:57:15.436 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-11-14 21:57:15.480 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-11-14 21:57:15.484 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-11-14 21:57:15.890 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 25ms.
+2025-11-14 21:57:16.014 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 29ms.
+2025-11-14 21:57:16.092 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 24ms.
+2025-11-14 21:57:19.839 [info] Started local extension host with pid 1557.
+2025-11-14 21:57:35.744 [info] Extension host (LocalProcess pid: 1557) is unresponsive.
+2025-11-14 21:57:37.772 [info] Extension host (LocalProcess pid: 1557) is responsive.
+2025-11-14 21:57:59.183 [warning] Creation of workbench contribution 'task.chatAgentTools' took 137ms.
+2025-11-14 21:57:59.867 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-14 21:58:02.112 [warning] Creation of workbench contribution 'status.languageStatus' took 116ms.
+2025-11-14 21:58:07.470 [warning] Creation of workbench contribution 'EditTelemetryContribution' took 349ms.
+2025-11-14 21:58:15.207 [warning] Creation of workbench contribution 'workbench.contrib.keywordActivation' took 114ms.
+2025-11-14 21:58:17.415 [warning] Creation of workbench contribution 'workbench.contrib.dynamicWindowConfiguration' took 120ms.
+2025-11-14 21:58:19.077 [info] [perf] Render performance baseline is 531ms
+2025-11-14 22:00:25.828 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

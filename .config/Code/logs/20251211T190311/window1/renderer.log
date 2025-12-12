@@ -1,0 +1,18 @@
+2025-12-11 19:03:21.010 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-11 19:03:21.239 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-11 19:03:21.240 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-11 19:03:21.745 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 48ms.
+2025-12-11 19:03:21.806 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 26ms.
+2025-12-11 19:03:21.899 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 58ms.
+2025-12-11 19:03:21.972 [warning] Creation of workbench contribution 'workbench.contrib.localTerminalBackend' took 28ms.
+2025-12-11 19:03:22.071 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 32ms.
+2025-12-11 19:03:22.208 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 66ms.
+2025-12-11 19:03:22.237 [warning] Creation of workbench contribution 'workbench.contrib.linuxSelectionClipboardPastePreventer' took 27ms.
+2025-12-11 19:03:32.325 [info] Started local extension host with pid 485.
+2025-12-11 19:03:55.890 [info] Extension host (LocalProcess pid: 485) is unresponsive.
+2025-12-11 19:03:56.133 [info] Extension host (LocalProcess pid: 485) is responsive.
+2025-12-11 19:04:05.774 [info] Extension host (LocalProcess pid: 485) is unresponsive.
+2025-12-11 19:04:06.743 [info] Extension host (LocalProcess pid: 485) is responsive.
+2025-12-11 19:04:19.095 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-12-11 19:04:24.064 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 103ms.
+2025-12-11 19:04:25.499 [info] [perf] Render performance baseline is 763ms

@@ -1,0 +1,89 @@
+2025-10-25 20:34:05.615 [info] Extension host with pid 461 started
+2025-10-25 20:34:05.615 [info] Skipping acquiring lock for /home/carlosjosuegarciaalvarado2006/.config/Code/User/workspaceStorage/d01a7f159c8cc30f353ef5e50dfcc58d.
+2025-10-25 20:34:08.997 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-25 20:34:09.262 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-25 20:34:09.334 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-10-25 20:34:09.826 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-25 20:34:16.515 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-25 20:34:17.685 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-25 20:34:17.699 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-10-25 20:34:19.267 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-25 20:34:19.293 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-25 20:34:21.674 [info] Eager extensions activated
+2025-10-25 20:55:54.710 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-10-25 20:56:00.305 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-10-25 20:56:00.340 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-10-25 20:56:00.380 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-10-25 21:27:05.752 [error] [vscode.typescript-language-features] provider FAILED
+2025-10-25 21:27:05.753 [error] Error: <semantic> TypeScript Server Error (5.9.2)
+Debug Failure. File /home/carlosjosuegarciaalvarado2006/Trabajo.js/funcion/resta,js has unknown extension.
+Error: Debug Failure. File /home/carlosjosuegarciaalvarado2006/Trabajo.js/funcion/resta,js has unknown extension.
+    at extensionFromPath (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:22738:39)
+    at createNewFileName (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:147701:23)
+    at doChange4 (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:148278:23)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:148271:77
+    at _ChangeTracker.with (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:179190:5)
+    at Object.getRefactorEditsToMoveToNewFile [as getEditsForAction] (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:148271:60)
+    at Object.getEditsForRefactor (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:146376:31)
+    at Object.getEditsForRefactor2 [as getEditsForRefactor] (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:153902:32)
+    at IpcIOSession.getEditsForRefactor (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:196388:49)
+    at getEditsForRefactor (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:194532:43)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:196809:15
+    at IpcIOSession.executeWithRequestId (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:196798:14)
+    at IpcIOSession.executeCommand (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:196807:29)
+    at IpcIOSession.onMessage (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:196855:68)
+    at process.<anonymous> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+	at n.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:2:355934)
+	at y.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:2:30501)
+	at y.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:2:28942)
+	at ChildProcess.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:2:28440)
+	at ChildProcess.emit (node:events:518:28)
+	at emit (node:internal/child_process:949:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+2025-10-25 21:32:09.099 [error] Error: <semantic> TypeScript Server Error (5.9.2)
+Debug Failure. File /home/carlosjosuegarciaalvarado2006/Trabajo.js/funcion/resta,js has unknown extension.
+Error: Debug Failure. File /home/carlosjosuegarciaalvarado2006/Trabajo.js/funcion/resta,js has unknown extension.
+    at extensionFromPath (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:22738:39)
+    at Object.getMoveToRefactoringFileSuggestions (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:153889:23)
+    at IpcIOSession.getMoveToRefactoringFileSuggestions (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:196421:41)
+    at getMoveToRefactoringFileSuggestions (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:194539:43)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:196809:15
+    at IpcIOSession.executeWithRequestId (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:196798:14)
+    at IpcIOSession.executeCommand (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:196807:29)
+    at IpcIOSession.onMessage (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:196855:68)
+    at process.<anonymous> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+	at n.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:2:355934)
+	at y.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:2:30501)
+	at y.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:2:28942)
+	at ChildProcess.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:2:28440)
+	at ChildProcess.emit (node:events:518:28)
+	at emit (node:internal/child_process:949:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:91:21) _typescript.moveToFileRefactoring {"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"}
+2025-10-25 21:32:09.099 [error] Error: <semantic> TypeScript Server Error (5.9.2)
+Debug Failure. File /home/carlosjosuegarciaalvarado2006/Trabajo.js/funcion/resta,js has unknown extension.
+Error: Debug Failure. File /home/carlosjosuegarciaalvarado2006/Trabajo.js/funcion/resta,js has unknown extension.
+    at extensionFromPath (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:22738:39)
+    at Object.getMoveToRefactoringFileSuggestions (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:153889:23)
+    at IpcIOSession.getMoveToRefactoringFileSuggestions (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:196421:41)
+    at getMoveToRefactoringFileSuggestions (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:194539:43)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:196809:15
+    at IpcIOSession.executeWithRequestId (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:196798:14)
+    at IpcIOSession.executeCommand (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:196807:29)
+    at IpcIOSession.onMessage (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:196855:68)
+    at process.<anonymous> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+	at n.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:2:355934)
+	at y.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:2:30501)
+	at y.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:2:28942)
+	at ChildProcess.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:2:28440)
+	at ChildProcess.emit (node:events:518:28)
+	at emit (node:internal/child_process:949:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:91:21) _typescript.moveToFileRefactoring undefined

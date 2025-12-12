@@ -1,0 +1,12 @@
+2025-10-09 19:24:13.647 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-10-09 19:24:13.679 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-10-09 19:24:13.695 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-10-09 19:24:13.940 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 23ms.
+2025-10-09 19:24:14.053 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 24ms.
+2025-10-09 19:24:14.120 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 31ms.
+2025-10-09 19:24:16.845 [info] Started local extension host with pid 483.
+2025-10-09 19:24:52.904 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-09 19:24:56.074 [info] [perf] Render performance baseline is 380ms
+2025-10-09 19:25:12.592 [error] [Extension Host] (node:483) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-10-09 21:13:44.117 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage

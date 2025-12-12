@@ -1,0 +1,114 @@
+file:///home/carlosjosuegarciaalvarado2006/Trabajo.js/parcial.js {"mtime":1764301458220,"ctime":1764301154424,"size":223,"etag":"3f82kd3lr76","orphaned":false,"typeId":""}
+const readline = require('readline');
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+let estudiantes = [];
+
+
+// FUNCIONES
+
+
+// Registro de estudiante
+function registrarEstudiante() {
+  rl.question("Nombre del estudiante: ", (nombre) => {
+    rl.question("Edad: ", (edad) => {
+      rl.question("Ingrese 3 notas separadas por coma (ej: 7,8.5,9): ", (listaNotas) => {
+        
+        let notas = listaNotas.split(",").map(Number);
+
+        estudiantes.push({
+          nombre,
+          edad: Number(edad),
+          notas
+        });
+
+        console.log("\n✔ Estudiante registrado correctamente.\n");
+        mostrarMenu();
+      });
+    });
+  });
+}
+
+// Calcular promedio y ver aprobación
+function calcularPromedio() {
+  rl.question("Ingrese el nombre del estudiante: ", (nombre) => {
+    let est = estudiantes.find(e => e.nombre.toLowerCase() === nombre.toLowerCase());
+
+    if (!est) {
+      console.log("\n❌ Estudiante no encontrado.\n");
+      return mostrarMenu();
+    }
+
+    let suma = est.notas.reduce((a, b) => a + b, 0);
+    let promedio = suma / est.notas.length;
+
+    console.log(`\nPromedio de ${est.nombre}: ${promedio.toFixed(2)}`);
+    console.log(promedio >= 6 ? "✔ Aprobado\n" : "✘ Reprobado\n");
+
+    mostrarMenu();
+  });
+}
+
+// Búsqueda por nombre
+function buscarEstudiante() {
+  rl.question("Nombre a buscar: ", (nombre) => {
+    let est = estudiantes.find(e => e.nombre.toLowerCase() === nombre.toLowerCase());
+
+    if (!est) {
+      console.log("\n❌ No se encontró.\n");
+    } else {
+      console.log("\n✔ Estudiante encontrado:");
+      console.log(est);
+      console.log();
+    }
+
+    mostrarMenu();
+  });
+}
+
+// Listado general
+function listarEstudiantes() {
+  if (estudiantes.length === 0) {
+    console.log("\nNo hay estudiantes registrados.\n");
+  } else {
+    console.log("\n📘 LISTADO DE ESTUDIANTES:");
+    estudiantes.forEach((e, i) => {
+      console.log(`${i + 1}. ${e.nombre} | Edad: ${e.edad} | Notas: ${e.notas.join(", ")}`);
+    });
+    console.log();
+  }
+
+  mostrarMenu();
+}
+
+// ------------------------------
+// MENÚ
+// ------------------------------
+function mostrarMenu() {
+  console.log("===== SISTEMA DE GESTIÓN DE ESTUDIANTES =====");
+  console.log("1. Registrar estudiante");
+  console.log("2. Calcular promedio");
+  console.log("3. Buscar estudiante");
+  console.log("4. Listar estudiantes");
+  console.log("5. Salir\n");
+
+  rl.question("Seleccione una opción: ", (op) => {
+    switch (op) {
+      case "1": registrarEstudiante(); break;
+      case "2": calcularPromedio(); break;
+      case "3": buscarEstudiante(); break;
+      case "4": listarEstudiantes(); break;
+      case "5": console.log("Saliendo..."); rl.close(); break;
+      default:
+        console.log("❌ Opción no válida.\n");
+        mostrarMenu();
+    }
+  });
+}
+
+// Iniciar programa
+mostrarMenu();

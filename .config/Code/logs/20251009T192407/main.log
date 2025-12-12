@@ -1,0 +1,21 @@
+2025-10-09 19:24:08.593 [info] update#setState idle
+2025-10-09 19:24:38.678 [info] update#setState checking for updates
+2025-10-09 19:24:39.362 [info] update#setState available for download
+2025-10-09 20:14:03.503 [error] CodeWindow: detected unresponsive
+2025-10-09 20:14:07.117 [error] CodeWindow: recovered from unresponsive
+2025-10-09 20:14:07.128 [error] CodeWindow unresponsive samples:
+<1> 
+    at ifi.getHeight (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1544:2315)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:283:14438
+    at Array.map (<anonymous>)
+    at vNi.Z (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:283:14352)
+    at vNi.splice (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:283:13768)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:281:96
+    at Array.forEach (<anonymous>)
+    at dJi.splice (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:281:83)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:326:7717
+    at aq.bufferEvents (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:5472)
+Total Samples: 1
+For full overview of the unresponsive period, capture cpu profile via https://aka.ms/vscode-tracing-cpu-profile
+2025-10-09 21:11:57.043 [warning] No ptyHost heartbeat after 6 seconds
+2025-10-09 21:13:43.512 [info] Extension host with pid 483 exited with code: 0, signal: unknown.

@@ -1,0 +1,66 @@
+2025-12-11 19:04:05.860 [info] [main] Log level: Info
+2025-12-11 19:04:05.860 [info] [main] Validating found git in: "git"
+2025-12-11 19:04:05.860 [info] [main] Using git "2.39.5" from "git"
+2025-12-11 19:04:05.860 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-11 19:04:05.860 [info] > git rev-parse --show-toplevel [590ms]
+2025-12-11 19:04:05.860 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [3394ms]
+2025-12-11 19:04:05.860 [info] [Model][openRepository] Opened repository (path): /home/carlosjosuegarciaalvarado2006/Trabajo.js
+2025-12-11 19:04:05.860 [info] [Model][openRepository] Opened repository (real path): /home/carlosjosuegarciaalvarado2006/Trabajo.js
+2025-12-11 19:04:05.860 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-11 19:04:05.860 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-11 19:04:05.860 [info] > git config --get commit.template [77ms]
+2025-12-11 19:04:05.982 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [142ms]
+2025-12-11 19:04:07.272 [info] > git status -z -uall [739ms]
+2025-12-11 19:04:07.287 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [458ms]
+2025-12-11 19:04:08.133 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [542ms]
+2025-12-11 19:04:08.463 [info] > git config --get --local branch.master.vscode-merge-base [192ms]
+2025-12-11 19:04:08.464 [warning] [Git][config] git config failed: Failed to execute git
+2025-12-11 19:04:08.550 [info] > git config --get commit.template [427ms]
+2025-12-11 19:04:08.587 [info] > git reflog master --grep-reflog=branch: Created from *. [38ms]
+2025-12-11 19:04:08.689 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [67ms]
+2025-12-11 19:04:08.689 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-12-11 19:04:08.689 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-12-11 19:04:08.806 [info] > git merge-base refs/heads/master refs/remotes/origin/master [86ms]
+2025-12-11 19:04:08.832 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [195ms]
+2025-12-11 19:04:08.857 [info] > git diff --name-status -z --diff-filter=ADMR 5475c5892ad1bfb5d03685cee393836bd20983b3...refs/remotes/origin/master [26ms]
+2025-12-11 19:04:08.971 [info] > git status -z -uall [79ms]
+2025-12-11 19:04:08.984 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [25ms]
+2025-12-11 19:04:10.734 [info] > git check-ignore -v -z --stdin [22ms]
+2025-12-11 19:04:12.960 [info] > git show --textconv :ejercicio4.js [401ms]
+2025-12-11 19:04:12.970 [info] > git ls-files --stage -- ejercicio4.js [241ms]
+2025-12-11 19:04:13.066 [info] > git cat-file -s 98fb64d838f6f49aa65a446f9714474fca8078ad [62ms]
+2025-12-11 19:04:15.052 [info] > git blame --root --incremental 5475c5892ad1bfb5d03685cee393836bd20983b3 -- ejercicio4.js [17ms]
+2025-12-11 19:11:58.971 [info] > git config --get commit.template [53ms]
+2025-12-11 19:11:58.986 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [26ms]
+2025-12-11 19:11:59.097 [info] > git status -z -uall [44ms]
+2025-12-11 19:11:59.261 [info] > git show --textconv :ejercicio1.js [87ms]
+2025-12-11 19:11:59.301 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [210ms]
+2025-12-11 19:11:59.360 [info] > git ls-files --stage -- ejercicio1.js [118ms]
+2025-12-11 19:11:59.404 [info] > git cat-file -s 5d5295a8c3f2aea80d433c3a47333ee9f2e32551 [16ms]
+2025-12-11 19:11:59.766 [info] > git blame --root --incremental 5475c5892ad1bfb5d03685cee393836bd20983b3 -- ejercicio1.js [27ms]
+2025-12-11 19:12:05.797 [info] > git config --get commit.template [26ms]
+2025-12-11 19:12:05.840 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [31ms]
+2025-12-11 19:12:05.929 [info] > git status -z -uall [44ms]
+2025-12-11 19:12:05.933 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-12-11 19:12:10.996 [info] > git config --get commit.template [26ms]
+2025-12-11 19:12:11.001 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-12-11 19:12:11.041 [info] > git status -z -uall [25ms]
+2025-12-11 19:12:11.047 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-12-11 19:12:18.840 [info] > git check-ignore -v -z --stdin [47ms]
+2025-12-11 19:12:19.434 [info] > git config --get commit.template [95ms]
+2025-12-11 19:12:19.487 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2025-12-11 19:12:19.618 [info] > git status -z -uall [61ms]
+2025-12-11 19:12:19.655 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [41ms]
+2025-12-11 19:12:19.880 [info] > git show --textconv :parcial.js [110ms]
+2025-12-11 19:12:19.881 [info] > git ls-files --stage -- parcial.js [11ms]
+2025-12-11 19:12:19.918 [info] > git hash-object -t tree /dev/null [11ms]
+2025-12-11 19:12:19.919 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/carlosjosuegarciaalvarado2006/Trabajo.js/parcial.js.git?%7B%22path%22%3A%22%2Fhome%2Fcarlosjosuegarciaalvarado2006%2FTrabajo.js%2Fparcial.js%22%2C%22ref%22%3A%22%22%7D
+2025-12-11 19:12:19.919 [info] > git hash-object -t tree /dev/null [29ms]
+2025-12-11 19:12:19.919 [warning] [GitFileSystemProvider][stat] File not found - git:/home/carlosjosuegarciaalvarado2006/Trabajo.js/parcial.js.git?%7B%22path%22%3A%22%2Fhome%2Fcarlosjosuegarciaalvarado2006%2FTrabajo.js%2Fparcial.js%22%2C%22ref%22%3A%22%22%7D
+2025-12-11 19:12:20.007 [info] > git blame --root --incremental 5475c5892ad1bfb5d03685cee393836bd20983b3 -- parcial.js [15ms]
+2025-12-11 19:12:20.007 [info] fatal: no such path parcial.js in 5475c5892ad1bfb5d03685cee393836bd20983b3
+2025-12-11 19:26:34.861 [info] > git config --get commit.template [20ms]
+2025-12-11 19:26:34.881 [info] > git check-ignore -v -z --stdin [25ms]
+2025-12-11 19:26:34.891 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2025-12-11 19:26:34.993 [info] > git status -z -uall [81ms]
+2025-12-11 19:26:34.994 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/carlosjosuegarciaalvarado2006/guia%202.js" added="2025-10-15T04:05:53.659618Z" modified="2025-11-15T03:56:28.089129Z" visited="2025-10-15T04:05:53.659619Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-11-15T03:56:28.089105Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/carlosjosuegarciaalvarado2006/Trabajo.js/parcial%201/ejercicio2.js" added="2025-11-01T21:55:46.218168Z" modified="2025-11-01T21:55:46.218200Z" visited="2025-11-01T21:55:46.218170Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-11-01T21:55:46.218174Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/carlosjosuegarciaalvarado2006/Trabajo.js/package.json" added="2025-11-01T22:15:38.725186Z" modified="2025-11-01T22:15:38.725197Z" visited="2025-11-01T22:15:38.725188Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-11-01T22:15:38.725192Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/carlosjosuegarciaalvarado2006/Trabajo.js/edad.js" added="2025-11-15T04:10:36.570915Z" modified="2025-11-15T04:10:49.655145Z" visited="2025-11-15T04:10:36.570916Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-11-15T04:10:49.655140Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/carlosjosuegarciaalvarado2006/Trabajo.js/nombre.js" added="2025-11-15T04:10:57.628704Z" modified="2025-11-15T04:10:57.628711Z" visited="2025-11-15T04:10:57.628705Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-11-15T04:10:57.628708Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/carlosjosuegarciaalvarado2006/Trabajo.js/contrase%C3%B1a.js" added="2025-11-15T04:11:02.217031Z" modified="2025-11-15T04:11:02.217039Z" visited="2025-11-15T04:11:02.217033Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-11-15T04:11:02.217035Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/carlosjosuegarciaalvarado2006/Trabajo.js/ejercicio4.js" added="2025-11-28T03:43:51.974635Z" modified="2025-11-28T03:43:51.974671Z" visited="2025-11-28T03:43:51.974637Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-11-28T03:43:51.974640Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/carlosjosuegarciaalvarado2006/Trabajo.js/ejercicio1.js" added="2025-11-28T03:44:02.938531Z" modified="2025-11-28T03:44:08.539534Z" visited="2025-11-28T03:44:02.938532Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-11-28T03:44:08.539528Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

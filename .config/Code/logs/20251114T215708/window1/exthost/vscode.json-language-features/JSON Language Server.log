@@ -1,0 +1,26 @@
+2025-11-14 21:58:05.602 [info] read schema from vscode: vscode://schemas/vscode-extensions
+2025-11-14 21:58:09.251 [info] read schema from vscode: vscode://schemas/toolsParameters
+2025-11-14 21:58:09.261 [info] read schema from vscode: vscode://schemas/settings/configurationDefaults
+2025-11-14 21:58:13.041 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2025-11-14 21:58:13.271 [info] read schema from vscode: vscode://schemas/token-styling
+2025-11-14 21:58:13.858 [info] read schema from vscode: vscode://schemas/textmate-colors
+2025-11-14 21:58:14.446 [info] schema change detected vscode://schemas/settings/resourceLanguage
+2025-11-14 21:58:14.817 [info] read schema from vscode: vscode://schemas/workbench-colors
+2025-11-14 21:58:15.908 [info] schema change detected vscode://schemas/settings/configurationDefaults
+2025-11-14 21:58:17.324 [info] schema change detected vscode://schemas/settings/resourceLanguage
+2025-11-14 21:58:17.922 [info] schema change detected vscode://schemas/settings/configurationDefaults
+2025-11-14 21:58:18.780 [info] schema change detected vscode://schemas/settings/configurationDefaults
+2025-11-14 21:58:18.844 [info] schema change detected vscode://schemas/vscode-extensions
+2025-11-14 21:58:18.921 [info] schema change detected vscode://schemas/settings/configurationDefaults
+2025-11-14 21:58:19.991 [info] cancelled
+2025-11-14 21:58:20.049 [info] read schema from vscode: vscode://schemas/vscode-extensions
+2025-11-14 21:58:20.189 [info] read schema from vscode: vscode://schemas/toolsParameters
+2025-11-14 21:58:20.207 [info] read schema from vscode: vscode://schemas/settings/configurationDefaults
+2025-11-14 21:58:20.972 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2025-11-14 21:58:21.660 [info] read schema from vscode: vscode://schemas/token-styling
+2025-11-14 21:58:21.685 [info] read schema from vscode: vscode://schemas/textmate-colors
+2025-11-14 21:58:21.691 [info] read schema from vscode: vscode://schemas/workbench-colors
+2025-11-14 22:11:10.930 [info] schema change detected vscode://schemas/settings/resourceLanguage
+2025-11-14 22:11:11.150 [info] schema change detected vscode://schemas/settings/configurationDefaults
+2025-11-14 22:11:14.107 [info] schema change detected vscode://schemas/settings/resourceLanguage
+2025-11-14 22:11:14.352 [info] schema change detected vscode://schemas/settings/configurationDefaults

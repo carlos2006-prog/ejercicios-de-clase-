@@ -1,0 +1,23 @@
+{
+  "name": "trabajo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "laboratorio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos2006-prog/Codigos.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlos2006-prog/Codigos.js/issues"
+  },
+  "homepage": "https://github.com/carlos2006-prog/Codigos.js#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
