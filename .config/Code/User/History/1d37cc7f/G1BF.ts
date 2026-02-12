@@ -1,4 +1,3 @@
-file:///home/carlosjosuegarciaalvarado2006/ejercicios.ts {"mtime":1770862379419,"ctime":1770862379419,"size":0,"etag":"3fj3gkhqs0","orphaned":false,"typeId":""}
 // EJERCICIO CONVERSIONES DE TEMPERATURA #2
 
 
