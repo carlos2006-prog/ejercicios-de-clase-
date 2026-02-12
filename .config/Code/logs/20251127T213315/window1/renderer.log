@@ -1,9 +1,0 @@
-2025-11-27 21:33:26.434 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2025-11-27 21:33:26.467 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2025-11-27 21:33:26.467 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2025-11-27 21:33:33.694 [info] Started local extension host with pid 472.
-2025-11-27 21:34:03.025 [info] Extension host (LocalProcess pid: 472) is unresponsive.
-2025-11-27 21:34:04.021 [info] Extension host (LocalProcess pid: 472) is responsive.
-2025-11-27 21:34:22.240 [warning] Creation of workbench contribution 'chat.simpleBrowser.overlay' took 112ms.
-2025-11-27 21:34:29.148 [info] Settings Sync: Account status changed from uninitialized to unavailable
-2025-11-27 21:34:32.489 [info] [perf] Render performance baseline is 342ms

@@ -1,23 +1,22 @@
 {
-  "name": "trabajo",
+  "name": "carlosjosuegarciaalvarado2006",
   "version": "1.0.0",
   "description": "",
-  "main": "laboratorio.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/carlos2006-prog/Codigos.js.git"
+    "url": "git+https://github.com/carlos2006-prog/parcial.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/carlos2006-prog/Codigos.js/issues"
+    "url": "https://github.com/carlos2006-prog/parcial/issues"
   },
-  "homepage": "https://github.com/carlos2006-prog/Codigos.js#readme",
-  "dependencies": {
-    "readline-sync": "^1.4.10"
+  "homepage": "https://github.com/carlos2006-prog/parcial#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
   }
 }

@@ -1,33 +1,41 @@
 {
     "telemetry.sqmId": "",
     "telemetry.machineId": "0218aeb380a0a21e2ac7fcb4ee70e4f60dc7bc5a922cb3c78e23b55a17ce8042",
-    "telemetry.devDeviceId": "5c5a900f-4846-4125-a23f-81373a5e2c4b",
+    "telemetry.devDeviceId": "c226b9f1-2b84-4abd-b152-a3f27d7cfb2d",
     "backupWorkspaces": {
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/carlosjosuegarciaalvarado2006/Trabajo.js"
+                "folderUri": "file:///home/carlosjosuegarciaalvarado2006"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1770255884480"
+            }
+        ]
     },
     "windowControlHeight": 35,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/carlosjosuegarciaalvarado2006/Trabajo.js": "__default__profile__"
+            "file:///home/carlosjosuegarciaalvarado2006/Trabajo.js": "__default__profile__",
+            "file:///home/carlosjosuegarciaalvarado2006": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1770255884480": "__default__profile__"
+        }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/carlosjosuegarciaalvarado2006/Trabajo.js",
-            "backupPath": "/home/carlosjosuegarciaalvarado2006/.config/Code/Backups/d8e20f5e8eb926fe7f705607a9db7a8c",
+            "folder": "file:///home/carlosjosuegarciaalvarado2006",
+            "backupPath": "/home/carlosjosuegarciaalvarado2006/.config/Code/Backups/4f95cf7a76398ee5c298a5097b03cb6d",
             "uiState": {
-                "mode": 1,
+                "mode": 0,
                 "x": 24,
                 "y": 0,
                 "width": 1469,
-                "height": 852
+                "height": 852,
+                "zoomLevel": -1
             }
         },
         "openedWindows": []
@@ -54,7 +62,7 @@
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
-            "titleBarHeight": 35,
+            "titleBarHeight": 42,
             "activityBarWidth": 48,
             "sideBarWidth": 300,
             "auxiliaryBarWidth": 0,
@@ -68,6 +76,10 @@
             "auxiliaryBarWidth": 300,
             "workspaces": {
                 "d01a7f159c8cc30f353ef5e50dfcc58d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "ad4cbec858f43f02d65cfa1b26731f84": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }
